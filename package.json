@@ -1,0 +1,36 @@
+{
+  "name": "vue-socket-cluster",
+  "version": "1.0.1",
+  "description": "Adds Socket cluster client and events on the Vue instance",
+  "main": "dist/build.js",
+  "scripts": {
+    "build": "webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgeevans1995/vue-socket-cluster-client.git"
+  },
+  "keywords": [
+    "VueJS",
+    "SocketCluster",
+    "uws",
+    "ws",
+    "web",
+    "sockets",
+    "vuex",
+    "realtime"
+  ],
+  "author": "George Evans",
+  "license": "MIT",
+  "dependencies": {
+    "socketcluster-client": "^6.1.1"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "vue-loader": "^13.0.1",
+    "webpack": "^3.2.0"
+  }
+}
