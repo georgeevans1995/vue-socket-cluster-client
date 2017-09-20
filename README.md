@@ -72,5 +72,6 @@ delete this.$options.$CONNECTION_NAMEClient.event_name;
 - Safari
 - Others (not tested)
 
-Based on works from [nigeltiany/vue-socket-cluster](https://github.com/nigeltiany/vue-socket-cluster) and its contributors
+Based on works from [nigeltiany/vue-socket-cluster](https://github.com/nigeltiany/vue-socket-cluster) and its contributors.
+
 This module differs from vue-socket-cluster in that it does not only allows you to add the socket cluster client to the vue instance. 
